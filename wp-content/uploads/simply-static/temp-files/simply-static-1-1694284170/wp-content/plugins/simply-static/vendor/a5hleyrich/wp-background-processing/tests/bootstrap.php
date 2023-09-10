@@ -1,1 +1,0 @@
-Could not find d:/programs/ospanel/userdata/temp/wordpress-tests-lib/includes/functions.php, have you run bin/install-wp-tests.sh ?
