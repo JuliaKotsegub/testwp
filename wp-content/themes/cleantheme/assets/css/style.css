@@ -139,19 +139,19 @@ body {
 }
 
 .bg-about {
-  background: url(../images/About\ bg.png);
+  background: url(/https://juliakotsegub.github.io/testwp//wp-content/themes/cleantheme/assets/images/About\ bg.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .bg-blog {
-  background: url(../images/Blog\ bg.png);
+  background: url(/https://juliakotsegub.github.io/testwp//wp-content/themes/cleantheme/assets/images/Blog\ bg.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .article-bg {
-  background: url(../images/article/articlebg.png);
+  background: url(/https://juliakotsegub.github.io/testwp//wp-content/themes/cleantheme/assets/images/article/articlebg.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -497,7 +497,7 @@ form {
   flex-shrink: 0;
   border-radius: 12px;
   border: 1px solid #e7e8e9;
-  background: url(../images/Home/bg-tab-block.png);
+  background: url(/https://juliakotsegub.github.io/testwp//wp-content/themes/cleantheme/assets/images/Home/bg-tab-block.png);
   background-size: cover;
 }
 
@@ -921,7 +921,7 @@ form {
   padding: 24px 16px;
   border-radius: 12px;
   border: 1px solid #e7e8e9;
-  background: url(../images/Home/bg-tab-block.png);
+  background: url(/https://juliakotsegub.github.io/testwp//wp-content/themes/cleantheme/assets/images/Home/bg-tab-block.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
