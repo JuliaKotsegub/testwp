@@ -4,7 +4,7 @@
           <div class="footer__inner">
             <div class="footer__info">
               <a href="#">
-                <img class="footer__logo" src="images/logo.png" alt="Logo">
+                <img class="footer__logo" src="<?php bloginfo('template_url'); ?>/assets/images/logo.png" alt="Logo">
               </a>
               <a href="tel:+380994484498" class="footer__info-tel">+38 099 448 44 98</a>
               <a href="mailto:treef.td@gmail.com" class="footer__info-email">treef.td@gmail.com</a>
@@ -55,12 +55,8 @@
       </div>
     </footer>
   </div>
+<?php wp_footer();?>
 
-
-
-  <script src="js/main.min.js">
-
-  </script>
 </body>
 
 </html>

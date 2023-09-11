@@ -139,7 +139,7 @@ body {
 }
 
 .bg-about {
-  background: url(/https://juliakotsegub.github.io/testwp//wp-content/themes/cleantheme/assets/images/About\ bg.png);
+  background: url('../images/About\ bg.png');
   background-size: cover;
   background-repeat: no-repeat;
 }

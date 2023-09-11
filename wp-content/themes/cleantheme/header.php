@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html <?php language_attributes(); ?>>
 
 <head>
-  <meta charset="UTF-8">
+  <meta charset="<?php bloginfo('charset'); ?>">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Quality cleaning</title>
 
@@ -17,7 +17,7 @@
     <div class="container">
       <div class="header__inner">
         <a href="#">
-          <img class="logo" src="images/logo.png" alt="Logo">
+          <img class="logo" src="<?php bloginfo('template_url'); ?>/assets/images/logo.png" alt="Logo">
         </a>
         <nav class="menu">
           <ul class="menu__list">
