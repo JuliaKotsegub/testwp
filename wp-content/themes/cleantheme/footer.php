@@ -3,9 +3,7 @@
         <div class="container">
           <div class="footer__inner">
             <div class="footer__info">
-              <a href="#">
-                <img class="footer__logo" src="<?php bloginfo('template_url'); ?>/assets/images/logo.png" alt="Logo">
-              </a>
+              <?php the_custom_logo( ); ?>
               <a href="tel:+380994484498" class="footer__info-tel">+38 099 448 44 98</a>
               <a href="mailto:treef.td@gmail.com" class="footer__info-email">treef.td@gmail.com</a>
             </div>

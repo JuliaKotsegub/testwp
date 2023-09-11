@@ -31,7 +31,6 @@ function svg_upload_allow( $mimes ) {
 
 add_filter( 'wp_check_filetype_and_ext', 'fix_svg_mime_type', 10, 5 );
 
-# Исправление MIME типа для SVG файлов.
 function fix_svg_mime_type( $data, $file, $filename, $mimes, $real_mime = '' ){
 
 	// WP 5.1 +
@@ -42,11 +41,9 @@ function fix_svg_mime_type( $data, $file, $filename, $mimes, $real_mime = '' ){
 		$dosvg = ( '.svg' === strtolower( substr( $filename, -4 ) ) );
 	}
 
-	// mime тип был обнулен, поправим его
-	// а также проверим право пользователя
+
 	if( $dosvg ){
 
-		// разрешим
 		if( current_user_can('manage_options') ){
 
 			$data['ext']  = 'svg';

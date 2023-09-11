@@ -16,9 +16,7 @@
   <header class="header">
     <div class="container">
       <div class="header__inner">
-        <a href="#">
-          <img class="logo" src="<?php bloginfo('template_url'); ?>/assets/images/logo.png" alt="Logo">
-        </a>
+        <?php the_custom_logo(); ?>
         <nav class="menu">
           <ul class="menu__list">
             <li class="menu__list-item">
